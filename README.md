@@ -1,3 +1,10 @@
+> **DEPRECATED** — This repo has been merged into the monorepo:  
+> **[kostyk348/sint](https://github.com/kostyk348/sint)** → `mcp/crypto/`  
+>  
+> This repository is archived for reference only. Active development continues in the monorepo.
+
+---
+
 # sint-crypto-mcp
 
 Cipher knowledge base + pattern detection + test vector validation + code generation for 25+ ciphers.
