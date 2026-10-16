@@ -1,11 +1,16 @@
-> **DEPRECATED** — This repo has been merged into the monorepo:  
-> **[kostyk348/sint](https://github.com/kostyk348/sint)** → `mcp/crypto/`  
->  
+> **DEPRECATED** — This repo has been merged into the monorepo:
+> **[kostyk348/sint](https://github.com/kostyk348/sint)** → `mcp/crypto/`
+>
 > This repository is archived for reference only. Active development continues in the monorepo.
 
 ---
 
 # sint-crypto-mcp
+
+[![CI](https://github.com/kostyk348/sint-crypto-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/kostyk348/sint-crypto-mcp/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/kostyk348/sint-crypto-mcp?sort=semver&color=blue)](https://github.com/kostyk348/sint-crypto-mcp/releases)
+[![License](https://img.shields.io/badge/license-Apache-2.0-green)](https://github.com/kostyk348/sint-crypto-mcp/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/kostyk348/sint-crypto-mcp?branch=main)](https://github.com/kostyk348/sint-crypto-mcp/commits/main)
 
 Cipher knowledge base + pattern detection + test vector validation + code generation for 25+ ciphers.
 
@@ -69,6 +74,7 @@ Identifies cipher implementations in binaries by:
 ```python
 detect_cipher("063a8e48e5d7b5b1c8a3c9b8a1e3f5d2")
 # → {"candidates": ["AES-128 (partial match)", "Camellia-128"]]}
+
 ```
 
 ### Test Vectors
@@ -76,6 +82,7 @@ detect_cipher("063a8e48e5d7b5b1c8a3c9b8a1e3f5d2")
 ```python
 get_test_vectors("AES", variant="128-ECB")
 # → NIST SP 800-38A vectors for AES-128-ECB
+
 ```
 
 ## Setup
